@@ -38,7 +38,8 @@ Why were these data types selected?
 ⁠country.Population⁠ is stored as an integer data type (such as INT) because population represents a discrete count of whole individuals where fractions do not exist. In contrast, ⁠country.LifeExpectancy⁠ is stored as a floating-point or decimal data type (such as FLOAT or DECIMAL) because life expectancy is a continuous statistical measure that includes decimal fractions of years. These specific data types were selected to accurately reflect the mathematical nature of the data—ensuring exact whole-number counting for populations while allowing precision for statistical averages.
 
 
-### Screenshot <img width="545" height="623" alt="image" src="https://github.com/user-attachments/assets/1c279e52-585b-4518-8995-ea933e6e8fa7" />
+### Screenshot <img width="671" height="636" alt="image" src="https://github.com/user-attachments/assets/7cec8bfe-d696-4d16-93b5-ed49d18d7afb" />
+
 
 
 _Show the table structure or DESCRIBE output._
@@ -96,7 +97,8 @@ FROM city
 ORDER BY Name;
 ```
 
-### Screenshot
+### Screenshot <img width="630" height="808" alt="image" src="https://github.com/user-attachments/assets/c10459dc-4a0c-4a7c-87a0-4ba9a4ab3942" />
+
 
 ![Q4 Screenshot](screenshots/q4_cities_sorted.png)
 
@@ -116,7 +118,8 @@ FROM country
 ORDER BY GovernmentForm;
 ```
 
-### Screenshot
+### Screenshot<img width="621" height="780" alt="image" src="https://github.com/user-attachments/assets/51919150-2feb-45ae-be0e-2e501c39fc01" />
+
 
 ![Q5 Screenshot](screenshots/q5_government_forms.png)
 
@@ -134,7 +137,8 @@ FROM country
 WHERE Continent = 'Oceania';
 ```
 
-### Screenshot
+### Screenshot<img width="635" height="785" alt="image" src="https://github.com/user-attachments/assets/7560f956-4a43-4687-b2ae-82694008e88c" />
+
 
 ![Q6 Screenshot](screenshots/q6_oceania.png)
 
@@ -151,7 +155,8 @@ SELECT Name, CountryCode
 FROM city;
 ```
 
-### Screenshot
+### Screenshot<img width="639" height="827" alt="image" src="https://github.com/user-attachments/assets/765d30c9-5dc6-4959-a790-6ec26f58be76" />
+
 
 ![Q7 Screenshot](screenshots/q7_city_countrycode.png)
 
