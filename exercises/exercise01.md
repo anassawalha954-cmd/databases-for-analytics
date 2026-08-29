@@ -1,6 +1,6 @@
 # Exercise 01: World Database SQL Practice
 
-- Name:
+- Name: Anas Alsawalhi
 - Course: Database for Analytics
 - Module: 1
 - Database Used: World Database
@@ -110,7 +110,7 @@ showing **each only once**, sorted alphabetically.
 
 ```sql
 SELECT DISTINCT GovernmentForm
-FROM country
+FROM country     
 ORDER BY GovernmentForm;
 ```
 
