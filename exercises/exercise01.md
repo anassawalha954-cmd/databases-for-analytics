@@ -97,7 +97,8 @@ FROM city
 ORDER BY Name;
 ```
 
-### Screenshot <img width="630" height="808" alt="image" src="https://github.com/user-attachments/assets/c10459dc-4a0c-4a7c-87a0-4ba9a4ab3942" />
+### Screenshot <img width="630" height="537" alt="image" src="https://github.com/user-attachments/assets/b1697dcd-24a3-474f-8f25-896e6639bcde" />
+
 
 
 ![Q4 Screenshot](screenshots/q4_cities_sorted.png)
@@ -118,7 +119,8 @@ FROM country
 ORDER BY GovernmentForm;
 ```
 
-### Screenshot<img width="621" height="780" alt="image" src="https://github.com/user-attachments/assets/51919150-2feb-45ae-be0e-2e501c39fc01" />
+### Screenshot<img width="621" height="620" alt="image" src="https://github.com/user-attachments/assets/aca4b0df-4383-4bd2-accc-f85028ff3511" />
+
 
 
 ![Q5 Screenshot](screenshots/q5_government_forms.png)
@@ -137,7 +139,8 @@ FROM country
 WHERE Continent = 'Oceania';
 ```
 
-### Screenshot<img width="635" height="785" alt="image" src="https://github.com/user-attachments/assets/7560f956-4a43-4687-b2ae-82694008e88c" />
+### Screenshot<img width="635" height="615" alt="image" src="https://github.com/user-attachments/assets/ae72d159-1ba0-4204-9ce9-547b4aead10f" />
+
 
 
 ![Q6 Screenshot](screenshots/q6_oceania.png)
@@ -155,7 +158,9 @@ SELECT Name, CountryCode
 FROM city;
 ```
 
-### Screenshot<img width="639" height="827" alt="image" src="https://github.com/user-attachments/assets/765d30c9-5dc6-4959-a790-6ec26f58be76" />
+### Screenshot<img width="611" height="610" alt="image" src="https://github.com/user-attachments/assets/751a8dd3-f657-40d9-978c-e3a5b08817a0" />
+
+
 
 
 ![Q7 Screenshot](screenshots/q7_city_countrycode.png)
@@ -174,7 +179,9 @@ SET Name = 'Nashville'
 WHERE Name = 'Nashville-Davidson';
 ```
 
-### Screenshot
+### Screenshot<img width="639" height="628" alt="image" src="https://github.com/user-attachments/assets/e93f9a2e-1646-4127-816e-a53b270a897b" />
+
+
 
 ![Q8 Screenshot](screenshots/q8_update_city.png)
 
@@ -193,7 +200,9 @@ INSERT INTO country (Code, Name, Continent, Region, Population)
 VALUES ('NAR', 'Narnia', 'Europe', 'Fantasy', 1000000);
 ```
 
-### Screenshot
+### Screenshot<img width="625" height="563" alt="image" src="https://github.com/user-attachments/assets/f57adeb6-5e08-4179-bd0e-434b6cd95e09" />
+
+
 
 ![Q9 Screenshot](screenshots/q9_insert_narnia.png)
 
@@ -210,6 +219,7 @@ DELETE FROM country
 WHERE Code = 'NAR';
 ```
 
-### Screenshot
+### Screenshot<img width="1280" height="1036" alt="image" src="https://github.com/user-attachments/assets/1d9151c0-32e5-46a8-9a9b-f555a3ad8a3c" />
+
 
 ![Q10 Screenshot](screenshots/q10_delete_narnia.png)
