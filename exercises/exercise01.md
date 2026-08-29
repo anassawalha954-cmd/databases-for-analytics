@@ -61,7 +61,8 @@ Why do you think this data type was selected?
 The data type for ⁠country.IndepYear⁠ is an integer type (such as ⁠INT⁠ or ⁠SMALLINT⁠). This type was selected because years represent whole, discrete numerical values (such as 1946 or 1971) that do not require decimal fractions. Additionally, this data type allows for storing ⁠NULL⁠ values for countries that may not have gained independence or where the independence year is unknown.
 
 
-### Screenshot
+### Screenshot <img width="545" height="623" alt="image" src="https://github.com/user-attachments/assets/25f762d2-3cc5-4e48-93fc-f91d5be968f4" />
+
 
 ```sql
 DESCRIBE country;
