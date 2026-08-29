@@ -57,7 +57,8 @@ Why do you think this data type was selected?
 
 ### Answer
 
-_Write your explanation here._
+The data type for ⁠country.IndepYear⁠ is an integer type (such as ⁠INT⁠ or ⁠SMALLINT⁠). This type was selected because years represent whole, discrete numerical values (such as 1946 or 1971) that do not require decimal fractions. Additionally, this data type allows for storing ⁠NULL⁠ values for countries that may not have gained independence or where the independence year is unknown.
+
 
 ### Screenshot
 
@@ -76,7 +77,8 @@ Explain why your proposed data type might be better in some situations.
 
 ### Answer
 
-_Write your explanation here._
+A case could be made for using a ⁠YEAR⁠ data type or even a string type (⁠VARCHAR⁠). A string data type might be better in some situations if you need to store approximate or uncertain historical periods (such as "circa 1900" or ancient BCE years that require descriptive text). However, for standard numerical filtering and sorting, the integer type remains efficient.
+
 
 ---
 
