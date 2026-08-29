@@ -38,7 +38,8 @@ Why were these data types selected?
 ⁠country.Population⁠ is stored as an integer data type (such as INT) because population represents a discrete count of whole individuals where fractions do not exist. In contrast, ⁠country.LifeExpectancy⁠ is stored as a floating-point or decimal data type (such as FLOAT or DECIMAL) because life expectancy is a continuous statistical measure that includes decimal fractions of years. These specific data types were selected to accurately reflect the mathematical nature of the data—ensuring exact whole-number counting for populations while allowing precision for statistical averages.
 
 
-### Screenshot
+### Screenshot <img width="545" height="623" alt="image" src="https://github.com/user-attachments/assets/1c279e52-585b-4518-8995-ea933e6e8fa7" />
+
 
 _Show the table structure or DESCRIBE output._
 
