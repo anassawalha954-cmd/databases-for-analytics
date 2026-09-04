@@ -1,6 +1,6 @@
 # Exercise 02: World Database – Joins, Grouping, and Data Quality
 
-- Name:
+- Name: Anas
 - Course: Database for Analytics
 - Module: 2
 - Database Used: World Database (PostgreSQL)
@@ -24,14 +24,14 @@ When importing records from `worldPGSQL.sql`, **how many cities were imported**?
 
 ### Answer
 
-_Write the number of cities imported._
+ 4079 cities were imported 
 
 ### Screenshot
 
 _Show evidence of how you determined this (for example, a COUNT query)._
 
 ```sql
--- Your SQL here
+SELECT COUNT(*) FROM city;
 ```
 
 ![Q1 Screenshot](screenshots/q1_city_count.png)
