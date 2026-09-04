@@ -34,7 +34,8 @@ _Show evidence of how you determined this (for example, a COUNT query)._
 SELECT COUNT(*) FROM city;
 ```
 
-![Q1 Screenshot](screenshots/q1_city_count.png)
+![Q1 Screenshot] <img width="983" height="573" alt="image" src="https://github.com/user-attachments/assets/1a946589-f2b6-4886-bc54-7342b4b68d95" />
+
 
 ---
 
