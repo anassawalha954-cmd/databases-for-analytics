@@ -36,7 +36,8 @@ _Show evidence of how you determined this (for example, a count query)._
 db.restaurants.countDocuments({})
 ```
 
-![Q1 Screenshot](screenshots/q1_document_count.png)
+![Q1 Screenshot] <img width="799" height="645" alt="image" src="https://github.com/user-attachments/assets/95849889-35a4-4f06-81ca-0da5fbdf6ad5" />
+
 
 ---
 
@@ -55,7 +56,10 @@ use("44661")
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_use_database.png)
+![Q2 Screenshot] <img width="535" height="380" alt="image" src="https://github.com/user-attachments/assets/998a5286-4991-443e-aa8d-fa494db5c1dc" />
+
+
+
 
 ---
 
@@ -73,7 +77,10 @@ db.restaurants.find({ borough: "Queens" })
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_queens_restaurants.png)
+![Q3 Screenshot] <img width="644" height="543" alt="image" src="https://github.com/user-attachments/assets/46f58dec-f6a6-40fa-b5e1-45bbb767acf1" />
+
+
+
 
 ---
 
@@ -91,7 +98,9 @@ db.restaurants.countDocuments({ borough: "Queens" })
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_queens_count.png)
+![Q4 Screenshot] <img width="601" height="387" alt="image" src="https://github.com/user-attachments/assets/ddcdbc54-f0d9-4e4e-b660-1ad6962c4267" />
+
+
 
 ---
 
@@ -113,7 +122,8 @@ db.restaurants.countDocuments({
 
 ### Screenshot
 
-![Q5 Screenshot](screenshots/q5_queens_hamburgers.png)
+![Q5 Screenshot] <img width="628" height="404" alt="image" src="https://github.com/user-attachments/assets/523cd46b-9826-412c-a74f-a00c1f619f29" />
+
 
 ---
 
@@ -135,7 +145,8 @@ db.restaurants.countDocuments({
 
 ### Screenshot
 
-![Q6 Screenshot](screenshots/q6_zipcode_count.png)
+![Q6 Screenshot] <img width="540" height="397" alt="image" src="https://github.com/user-attachments/assets/a62af9a2-02a5-405c-abfa-aba3855d8911" />
+
 
 ---
 
@@ -169,7 +180,8 @@ db.restaurants.find(
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_zipcode_names.png)
+![Q7 Screenshot] <img width="794" height="621" alt="image" src="https://github.com/user-attachments/assets/49317137-ac9b-4c0b-b294-3aef7ecf3ac0" />
+
 
 ---
 
@@ -193,4 +205,5 @@ db.restaurants.find({ name: /IHOP/i }, { _id: 0, name: 1 }).forEach(r => print(r
 
 ### Screenshot
 
-![Q8 Screenshot](screenshots/q8_ihop_case_insensitive.png)
+![Q8 Screenshot] <img width="1009" height="601" alt="image" src="https://github.com/user-attachments/assets/9dd8d390-ef73-42db-b15c-a7bf0b4e48ab" />
+
