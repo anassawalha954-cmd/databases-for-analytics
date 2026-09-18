@@ -87,7 +87,12 @@ to produce the following graph:
 ### Python Code
 
 ```python
-# Your Python code here
+# Create the bar chart using pandas plotting and matplotlib
+df.plot(x='name', y='countLanguage', kind='bar', figsize=(10, 6))
+plt.ylabel('num_languages')
+plt.xlabel('name')
+plt.show()
+
 ```
 
 ### Screenshot
