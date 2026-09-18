@@ -92,10 +92,6 @@ to produce the following graph:
 import matplotlib.pyplot as plt
 
 plt.bar(df["name"], df["num_languages"])
-
-<img width="846" height="1264" alt="image" src="https://github.com/user-attachments/assets/344675bc-2f5a-4c59-8129-8fc183b12ae8" />
-
-
 plt.xlabel("name")
 plt.ylabel("num_languages")
 
@@ -107,4 +103,5 @@ plt.show()
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_countries_graph.png)
+![Q3 Screenshot] <img width="846" height="1264" alt="image" src="https://github.com/user-attachments/assets/a49b3d13-476a-4a71-ad05-70311cc182a8" />
+
