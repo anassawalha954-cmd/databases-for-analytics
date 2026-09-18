@@ -63,7 +63,10 @@ execute the query from Question 1 and
 ### Python Code
 
 ```python
-# Your three Python statements here
+sql = "SELECT country.name, COUNT(countrylanguage.language) AS countLanguage FROM country JOIN countrylanguage ON country.code = countrylanguage.countrycode WHERE countrylanguage.isofficial = 'T' GROUP BY country.name HAVING COUNT(countrylanguage.language) > 2 ORDER BY countLanguage DESC"
+df = pd.read_sql(sql, engine)
+display(df)
+
 ```
 
 ### Screenshot
