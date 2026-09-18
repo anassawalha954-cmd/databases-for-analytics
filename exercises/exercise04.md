@@ -71,7 +71,8 @@ display(df)
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_jupyter_query_results.png)
+![Q2 Screenshot] <img width="1231" height="1070" alt="image" src="https://github.com/user-attachments/assets/aa004334-947f-4d8a-8755-a4a07f174f31" />
+
 
 ---
 
@@ -91,6 +92,9 @@ to produce the following graph:
 import matplotlib.pyplot as plt
 
 plt.bar(df["name"], df["num_languages"])
+
+<img width="846" height="1264" alt="image" src="https://github.com/user-attachments/assets/344675bc-2f5a-4c59-8129-8fc183b12ae8" />
+
 
 plt.xlabel("name")
 plt.ylabel("num_languages")
