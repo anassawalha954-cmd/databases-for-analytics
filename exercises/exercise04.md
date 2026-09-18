@@ -1,8 +1,8 @@
 # Exercise 04: Advanced SQL, Jupyter, and Visualization
 
-- Name:
+- Name: Anas
 - Course: Database for Analytics
-- Module:
+- Module:4 
 - Database Used: World Database
 - Tools Used: PostgreSQL, SQLAlchemy, Pandas, Jupyter Notebooks
 
@@ -34,12 +34,19 @@ along with the **number of official languages spoken**.
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT country.name, COUNT(countrylanguage.language) AS countLanguage
+FROM country
+JOIN countrylanguage ON country.code = countrylanguage.countrycode
+WHERE countrylanguage.isofficial = 'T'
+GROUP BY country.name
+HAVING COUNT(countrylanguage.language) > 2
+ORDER BY countLanguage DESC
 ```
 
 ### Screenshot
 
-![Q1 Screenshot](screenshots/q1_official_language_counts.png)
+![Q1 Screenshot] <img width="1280" height="775" alt="image" src="https://github.com/user-attachments/assets/0d6aa0f9-c9fb-4803-b7d3-ebe2338730db" />
+
 
 ---
 
