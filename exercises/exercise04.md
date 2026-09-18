@@ -88,9 +88,15 @@ to produce the following graph:
 
 ```python
 # Create the bar chart using pandas plotting and matplotlib
-df.plot(x='name', y='countLanguage', kind='bar', figsize=(10, 6))
-plt.ylabel('num_languages')
-plt.xlabel('name')
+import matplotlib.pyplot as plt
+
+plt.bar(df["name"], df["num_languages"])
+
+plt.xlabel("name")
+plt.ylabel("num_languages")
+
+plt.xticks(rotation=90)
+
 plt.show()
 
 ```
