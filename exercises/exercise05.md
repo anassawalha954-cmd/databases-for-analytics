@@ -152,7 +152,8 @@ After looking at the data, **why is this the case?**
 
 ### Answer
 
-_Write your explanation here._
+The reason why some emails contain an opened date before the sent date is because ⁠sent_date⁠ is often logged as a standard/default batch timestamp (typically ⁠15:00:00⁠ or a coordinated universal time), whereas ⁠opened_date⁠ is recorded based on the actual local time when the customer opens the email, which can sometimes precede that default time stamp.
+
 
 ### Screenshot (if requested by instructor)
 
@@ -193,7 +194,11 @@ CREATE TEMP TABLE customer_dealership_distance AS (
 
 ### Answer
 
-_Write your explanation here._
+The code creates three temporary tables to handle spatial/geographical data for customers and dealerships:
+1. ⁠customer_points⁠: Converts the longitude and latitude of customers into point data types, filtering out any null values.
+2. ⁠dealership_points⁠: Converts the longitude and latitude of dealerships into point data types.
+3. ⁠customer_dealership_distance⁠: Performs a cross join between customer points and dealership points and uses the PostGIS/PostgreSQL distance operator (⁠<@>⁠) to calculate the distance between them.
+
 
 ---
 
