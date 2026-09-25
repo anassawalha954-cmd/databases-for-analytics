@@ -51,7 +51,8 @@ ORDER BY year;
 
 ### Screenshot
 
-![Q1 Screenshot](screenshots/q1_email_years.png)
+![Q1 Screenshot] <img width="585" height="760" alt="image" src="https://github.com/user-attachments/assets/4756a10c-20c7-4c67-ae16-be57bd832e49" />
+
 
 ---
 
@@ -81,7 +82,8 @@ ORDER BY year;
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_message_count_by_year.png)
+![Q2 Screenshot] <img width="531" height="776" alt="image" src="https://github.com/user-attachments/assets/442535c0-b3b5-4921-b7a3-987d5f6bf27f" />
+
 
 ---
 
@@ -109,7 +111,8 @@ WHERE sent_date IS NOT NULL
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_sent_opened_interval.png)
+![Q3 Screenshot] <img width="681" height="797" alt="image" src="https://github.com/user-attachments/assets/45435f5d-db4c-40e1-93cd-b258924ce9bd" />
+
 
 ---
 
@@ -134,7 +137,8 @@ WHERE opened_date IS NOT NULL
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_opened_before_sent.png)
+![Q4 Screenshot] <img width="521" height="834" alt="image" src="https://github.com/user-attachments/assets/972efc34-e561-4846-ae18-009eb44d7e20" />
+
 
 ---
 
@@ -219,7 +223,8 @@ ORDER BY dealership_id;
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_salespeople_array_by_dealership.png)
+![Q7 Screenshot] <img width="1280" height="672" alt="image" src="https://github.com/user-attachments/assets/b6c407b8-50e7-4713-b748-c36456b57b39" />
+
 
 ---
 
@@ -257,7 +262,8 @@ ORDER BY
 
 ### Screenshot
 
-![Q8 Screenshot](screenshots/q8_salespeople_array_state_count.png)
+![Q8 Screenshot] <img width="1097" height="775" alt="image" src="https://github.com/user-attachments/assets/aafd70b0-df45-486d-af70-75f9658cba0e" />
+
 
 ---
 
@@ -275,7 +281,8 @@ FROM customers;
 
 ### Screenshot
 
-![Q9 Screenshot](screenshots/q9_customers_to_json.png)
+![Q9 Screenshot] <img width="1280" height="707" alt="image" src="https://github.com/user-attachments/assets/39ca4e0d-f626-4aa2-a42a-f0ff93a36b7c" />
+
 
 ---
 
@@ -317,4 +324,5 @@ FROM (
 
 ### Screenshot
 
-![Q10 Screenshot](screenshots/q10_salespeople_array_to_json.png)
+![Q10 Screenshot] <img width="1280" height="695" alt="image" src="https://github.com/user-attachments/assets/378da4d7-5b92-4a6b-8cef-2be828cb3210" />
+
