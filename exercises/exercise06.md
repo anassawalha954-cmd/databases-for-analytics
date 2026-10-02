@@ -2,7 +2,7 @@
 
 From the Operational Model to the Dimensional Model
 
-- Name:
+- Name:Anas
 - Course: Database for Analytics
 - Module: 6
 
@@ -125,4 +125,5 @@ In 1-2 short paragraphs, explain:
 
 #### Design Notes
 
-_Write your design notes here._
+I chose three dimensions: Date, Customer, and Part. Date supports the time-based questions (day, month, quarter, year), Customer supports customer and zip code questions, and Part supports part number and category questions. I left out orders, order lines, sales reps, credit data, and inventory fields because the requirements say they aren't needed.
+The grain is daily sales: one fact row per date, customer, and part, with amount and quantity aggregated from the operational orders and order lines before loading. This is detailed enough to answer every required question while avoiding order-level data. For example, "How many of part ax12 were sold on September 2, 1994?" is a sum of quantity filtered by part and date; "How much did customer 124 spend last year?" is a sum of amount filtered by customer and year; and "How many appliance items were sold in Q3 1994?" is a sum of quantity filtered by category and quarter.
