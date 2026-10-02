@@ -111,7 +111,7 @@ Save your diagram image in this repo and embed it below.
 
 #### Diagram
 
-![Star Schema Diagram] <img width="975" height="553" alt="image" src="https://github.com/user-attachments/assets/c321f299-4f28-4f44-81e6-724acc53fa85" />
+ <img width="975" height="553" alt="image" src="https://github.com/user-attachments/assets/c321f299-4f28-4f44-81e6-724acc53fa85" />
 
 
 ---
